@@ -14,10 +14,5 @@ variables:
   enable_monitoring: false
 
   # Azure DevOps
-  ado_service_connection_rg: Azure-ARM-Prod
-  ado_service_connection_aml_ws: Azure-ARM-Prod
-
-  # For pipeline reference
-  resource_group: <enter-your-resource-group-name>
-  aml_workspace: <enter-your-aml-workspace-name>
-
+  ado_service_connection_rg: <enter-your-resource-group-name>
+  ado_service_connection_aml_ws: <enter-your-aml-workspace-name>
