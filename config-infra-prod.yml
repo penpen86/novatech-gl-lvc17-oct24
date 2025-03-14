@@ -14,5 +14,5 @@ variables:
   enable_monitoring: false
 
   # Azure DevOps
-  ado_service_connection_rg: mlsops-june2023
-  ado_service_connection_aml_ws: mlsops-june2023
+  resource_group: mlsops-june2023
+  aml_workspace: mlsops-june2023
